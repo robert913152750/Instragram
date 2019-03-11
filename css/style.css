@@ -1,0 +1,398 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section{
+  padding: 100px 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 75%;
+  max-width: 1070px;
+  margin: 0 auto;
+  position: relative;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* --header-- */
+
+header{
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.975);
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  
+}
+
+.logo-nav{
+  text-align: center;
+  height: 75px;
+  width: 100%;
+  position: relative;
+}
+#logo{
+  display: inline-block;
+  float: left;
+  line-height: 70px;
+  width: 300px;
+  height: 100%;
+}
+
+.logo-left{
+  float: left;
+  display: inline-block;
+  padding: 5px 10px;
+  height: 100%;
+  line-height: 70px;
+
+}
+
+.logo-left a{
+  color: #000;
+  font-size: 26px;
+}
+
+.hr-line{
+  float: left;
+  width: 1px;
+  background-color: #262626;
+  height: 30px;
+  margin: 0px 10px;
+  position: relative;
+  top: 24px;
+}
+
+.logo-right{
+  width: 33.3333%;
+  float: left;
+  position: relative;
+  top: 3.5px;
+  padding-left: 9.5px;
+}
+
+.logo-right a{
+  color: #000;
+  font-size: 24px;
+}
+
+#search{
+  float: left;
+  position: relative;
+  width: 300px;
+  height: 100%;
+  left: 50px;
+  line-height: 75px;
+  
+}
+
+#search input{
+  background: #fafafa;
+  border: solid 1px #dbdbdb;
+  border-radius: 2.5px;
+  color: #dbdbdb;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 20px;
+  
+}
+
+nav ul{
+  display: inline-block;
+  float:right;
+  position: relative;
+  margin: 15px 30px;
+}
+
+nav ul a{
+  margin-right: 40px;
+  color: #000;
+  font-size: 26px;
+}
+
+/* --main-contact-- */
+
+.main{
+  position: relative;
+}
+
+.main-contact{
+  border: 1px solid #dbdbdb;
+  margin: 0 30px;
+  width: 66.66666%;
+  height: 680px;
+  float: left;
+  position: relative;
+}
+
+.main-contact-top{
+  width:614px;
+  height: 60px;
+  position: relative;
+}
+
+.main-contact-avatar{
+  float: left;
+}
+
+.main-contact-avatar a i{
+  font-size: 40px;
+  margin: 10px;
+}
+
+.main-contact-user{
+  height: 100%;
+  float: left;
+  padding:9px 1px;
+}
+
+.main-contact-user p{
+  font-size: 10px;
+  color: #000000;
+  font-weight: bold;
+
+}
+
+.main-contact-user a{
+  font-size: 10px;
+  color: #000;
+}
+
+.main-img{
+  float: left;
+  width: 100%;
+  height: 459px;
+  background-image: url(http://picsum.photos/680/460);
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+}
+
+.function-icon{
+  width: 100%;
+  height: 40px;
+  float: left;
+}
+
+.function-icon-left{
+  float: left;
+}
+
+.function-icon-left a{
+  font-size: 27px;
+  color: #000;
+  padding-left: 10px;
+  padding-top: 3px;
+
+}
+.function-icon-left a.heard-like i:hover{
+  color: red;
+}
+
+.function-icon-right{
+  width: 50px;
+  height: 40px;
+  float: right;
+   padding-top: 5px;
+}
+
+.function-icon-right a i{
+  font-size: 30px;
+  color: #000;
+  padding-left: 15px;
+}
+
+.main-message{
+  padding-left: 15px;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.main-message a:nth-child(1){
+  color: #000;
+  font-weight: bold;
+}
+
+.main-message p{
+  color: #000;
+}
+
+.main-message .a2{
+  color: #dbdbdb;
+}
+
+.main-textarea{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.main-textarea textarea{
+  width: 95%;
+  height: 28px;
+  padding-top: 10px;
+  border: none;
+  border-top: 1px solid #dbdbdb;
+  resize: none;
+}
+
+/* --friend-- */
+
+.friend{
+  float: left;
+  height: 65%;
+  width: 25.333333%; 
+}
+
+.myself{
+  width: 100%;
+  height: 10%;
+}
+
+.my-photo{
+  float: left;
+}
+
+.my-photo a i{
+  font-size: 43px;
+}
+ .my-name{
+   float: left;
+   height: 100%;
+   padding-left: 10px;
+ }
+
+ .my-name-english{
+   font-size: 15px;
+   font-weight: bold;
+ }
+
+ .my-name-chinese{
+   font-size: 12px;
+ }
+
+ /* --stories-- */
+
+ .stories{
+   width: 100%;
+   height: 250px;
+   margin: 10px 0;
+   padding: 10px;
+   border: 1px solid #dbdbdb;
+   overflow: auto;
+ }
+
+ .stories-title, .suggestion-title{
+   margin-bottom:5px; 
+ }
+ .stories-left-title, .suggestion-title-left{
+   float: left;
+   color: #666464;
+   font-size: 8px;
+ }
+
+ .stories-right-title, .suggesting-title-right{
+   float: right;
+ }
+
+ .stories-right-title a, .suggesting-title-right a{
+   color: #333;
+   font-weight: bold;
+   font-size: 8px;
+ }
+
+ .stories-friends-dynamic, .suggestion-people{
+   height: 60px;
+   width: 100%;
+ }
+
+ .friend-photo-left, .suggestion-people-left{
+   float: left;
+ }
+
+ .friend-photo-left a i, .suggestion-people-left a i{
+   font-size: 35px;
+   padding-right: 7px;
+ }
+
+ .friend-name{
+   font-size: 10px;
+ }
+
+ /* --suggestion-- */
+
+ .suggestion-for-you{
+   width: 100%;
+   height: 200px;
+   margin: 10px 0;
+   padding: 10px;
+   border: 1px solid #dbdbdb;
+ }
+
+ .suggestion-people-name{
+   font-size: 10px;
+   width: 150px;
+ }
+ .suggestion-people-right{
+   float: right;
+   height: 100%;
+   position: relative;
+   top: -26px;
+ }
+/* --second-main-- */
+
+.main-img_2{
+  float: left;
+  width: 100%;
+  height: 459px;
+  background-image: url(https://picsum.photos/800/550);
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+}
+
